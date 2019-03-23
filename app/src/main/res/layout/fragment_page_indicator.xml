@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+                
+    </ScrollView>
+
+    <TextView
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:text="Fragment Page Indicator"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
