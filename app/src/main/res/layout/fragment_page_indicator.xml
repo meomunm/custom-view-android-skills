@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@color/colorPrimary"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
     <ScrollView
         android:id="@+id/scrollview_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-                
+
     </ScrollView>
 
     <TextView
+        android:id="@+id/tv_tittle_page_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
         android:clickable="false"
         android:gravity="center"
-        android:textSize="45sp"
-        android:textStyle="bold"
         android:text="Fragment Page Indicator"
-        android:layout_centerVertical="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_page_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="click me" />
 </RelativeLayout>
